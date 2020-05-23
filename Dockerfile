@@ -7,5 +7,6 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install \
     vim \
     htop \
     wget
-RUN bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+RUN mkdir -p ~/.vim/pack/kite/start/kite && \
+    git clone https://github.com/kiteco/vim-plugin.git ~/.vim/pack/kite/start/kite/
 WORKDIR /root/
