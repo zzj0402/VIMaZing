@@ -19,4 +19,5 @@ Latest version of Ubuntu
 - git-all
 - vim
 - htop
+- wget
 - Kite

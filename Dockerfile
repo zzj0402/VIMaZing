@@ -5,6 +5,7 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install \
     tzdata \
     git-all \
     vim \
-    htop
+    htop \
+    wget
 RUN bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
 WORKDIR /root/
