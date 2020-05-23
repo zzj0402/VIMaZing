@@ -1,0 +1,2 @@
+# VIMaZing
+Amazing VIM Enviroment
