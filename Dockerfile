@@ -7,4 +7,4 @@ RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install \
     vim \
     htop
 RUN bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
-WORKDIR /ROOT/
+WORKDIR /root/

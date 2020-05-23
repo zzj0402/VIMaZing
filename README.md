@@ -19,3 +19,4 @@ Latest version of Ubuntu
 - git-all
 - vim
 - htop
+- Kite
